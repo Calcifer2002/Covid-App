@@ -759,7 +759,7 @@ font-size: 2.5vw;
 }
 }
 
-@media screen and (min-width : 339px) and (max-width : 399px) {
+@media screen and (min-width : 339px) and (max-width : 401px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
