@@ -485,7 +485,7 @@ font-size: 2.5vw;}
   width: 0px;
 }
 }
-@media screen and (min-width : 539px) and (max-width : 650px){
+@media screen and (min-width : 539px) and (max-width : 670px){
   .navbar {
     flex-direction: column;
     align-items: flex-start;
