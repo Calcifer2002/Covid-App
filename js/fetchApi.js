@@ -10,7 +10,7 @@ document.getElementById("searchBtn").addEventListener('click', function (e) {
 })
 function getInputValue(){
     var inputVal = document.getElementById("myInput").value;
-    fetch("https://corona.lmao.ninja/v2/countries/"+inputVal)
+    fetch("https://corona.lmao.ninja/v2/countries/"+{inputVal})
   .then((response) => {
     return response.json();
   })
